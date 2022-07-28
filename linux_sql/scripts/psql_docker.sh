@@ -1,11 +1,11 @@
-#!/bin/bash
+#!/bin/sh
 
 cmd=$1
 db_username=$2
 db_password=$3
 
-echo "$(sudo systemctl status docker || sudo systemctl start docker)"
-echo "$(docker container inspect jrvs-psql)"
+sudo systemctl status docker || sudo systemctl start docker
+docker container inspect jrvs-psql
 
 container_status=$?
 
@@ -22,8 +22,8 @@ case $cmd in
     	exit 1
   fi
   
-echo "$(docker volume create pgdata)"
-echo "$(docker run --name $db_username -e POSTGRES_PASSWORD=$db_password -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine)"
+docker volume create pgdata
+docker run --name $db_username -e POSTGRES_PASSWORD=$db_password -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
   exit $?
   ;;
 
