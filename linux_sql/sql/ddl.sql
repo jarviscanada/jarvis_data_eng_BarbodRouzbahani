@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS PUBLIC.host_info
   (
-	id			SERIAL		UNIQUE NOT NULL,
-	hostname		VARCHAR		NOT NULL,
+	id			SERIAL		NOT NULL,
+	hostname		VARCHAR		UNIQUE NOT NULL,
 	cpu_number		INTEGER		NOT NULL,
 	cpu_architecture	VARCHAR		NOT NULL,
 	cpu_model		VARCHAR		NOT NULL,
@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS PUBLIC.host_info
 CREATE TABLE IF NOT EXISTS PUBLIC.host_usage
   ( 
 	"timestamp"    		TIMESTAMP	NOT NULL, 
-	host_id        		SERIAL		UNIQUE NOT NULL, 
+	host_id        		SERIAL		NOT NULL, 
 	memory_free		INTEGER		NOT NULL,
 	cpu_idle		INTEGER		NOT NULL,
 	cpu_kernel		INTEGER		NOT NULL,
