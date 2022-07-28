@@ -6,14 +6,15 @@ db_name=$3
 psql_user=$4
 psql_password=$5
 
-if [ $# -gt 5 ] || [ $# -lt 1 ]; then
-	echo "Command line error!"
+if [ $# -ne 5 ]; then
+	echo -e "\n- Command line arguements must be = 5. Exiting ...\n"
 	exit 1
 fi
 
 hostname=$(hostname -f)
+lscpu_out=$(lscpu)
 
-cpu_number=cpu_number=$(echo "$lscpu_out"  | egrep "^CPU\(s\):" | awk '{print $2}' | xargs)
+cpu_number=$(echo "$lscpu_out"  | egrep "^CPU\(s\):" | awk '{print $2}' | xargs)
 
 cpu_arch=$(echo "$lscpu_out" | egrep "Architecture" | awk '{print $2}' | xargs)
 
@@ -21,14 +22,16 @@ cpu_model=$(echo "$lscpu_out" | egrep "Model name:" | awk '{print}' | xargs | cu
 
 cpu_mhz=$(echo "$lscpu_out" | egrep "MHz:" | awk '{print $3}' | xargs)
 
-l2_cache=$(echo "$lscpu_out" | egrep "L2 cache:" | awk '{print $3}' | xargs)
+L2_cache=$(echo "$lscpu_out" | egrep "L2 cache:" | awk '{print $3}' | xargs | sed 's/K//g' )
 
-#cut -d ":" -f 2  --->    this tells the system to consider ':' as the delimiter and only print out the second field of the line
 total_mem=$(cat /proc/meminfo | egrep "MemTotal" | awk "{print $2}" | cut -d ":" -f 2 | xargs)
 
-#current timestamp in `2019-11-26 14:40:19` format
-timestamp_val=`vmstat -t`
-timestamp=$(echo "$timestamp_val" | grep "2022" | awk "{print}" | xargs | cut -d " " -f 18-19)
+timestamp=$(echo "$(vmstat -t)" | grep "2022" | awk "{print}" | xargs | cut -d " " -f 18-19)
 
+insert_stmt="INSERT INTO host_info(hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, L2_cache, total_mem, timestamp) VALUES('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$L2_cache', '$total_mem', '$timestamp');"
 
-exit 0
+export PGPASSWORD=$psql_password
+
+psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
+
+exit $?
