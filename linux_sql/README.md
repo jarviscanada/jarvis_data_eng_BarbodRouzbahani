@@ -1,5 +1,5 @@
 # :penguin: Introduction :penguin:
-The purpose of this project is to gather hardware and usage information of a linux system and store them in an RDBMS database. This is built for recource planning purposes, for the teams who wish to manage their recources for further changes to their systems. Technologies used in this project are Google Cloud, Git, bash, Docker, and PSQL.
+The purpose of this project is to gather hardware and usage information of a Linux system and store them in an RDBMS database. This is built for resource planning purposes, for the teams who wish to manage their resources for further changes to their systems. Technologies used in this project are Google Cloud, Git, bash, Docker, and PSQL.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ The purpose of this project is to gather hardware and usage information of a lin
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Implementation
-The implementation of the project is done by first writing the proper CLI arguements to gather the necessary data (usage/hardware). We then setup our psql_docker.sh file to automate the process of creating/starting/stopping our psql instance. In the next step, we implement our ddl.sql and queries.sql. ddl.sql creates a table with the proper rows and columns, so that we can later store our data in the table. Also, what queries.sql does is that it helps us group hosts by hardware info, and calculate the average memory usage, and also detect any host failures. The next and final step is to implement our host_info.sh and host_usage.sh files, so that we can insert the data we have gathered using CLI into the tables we have previously created. 
+The implementation of the project is done by first writing the proper CLI arguments to gather the necessary data (usage/hardware). We then set up our psql_docker.sh file to automate the process of creating/starting/stopping our psql instance. In the next step, we implement our ddl.sql and queries.sql. ddl.sql creates a table with the proper rows and columns, so that we can later store our data in the table. Also, what queries.sql does is that it helps us group hosts by hardware info, calculate the average memory usage, and also detect any host failures. The next and final step is to implement our host_info.sh and host_usage.sh files, so that we can insert the data we have gathered using CLI into the tables we have previously created. 
 
 ## Architecture
 
@@ -101,4 +101,4 @@ Using crontab, the usage data of the user was repeatedly inserted into the host_
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Improvements
-Architecture of the project could be added to README to improve the clarity of the project's goal.
+The architecture of the project could be added to README to improve the clarity of the project's goal.
