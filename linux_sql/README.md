@@ -102,4 +102,3 @@ Using crontab, the usage data of the user was repeatedly inserted into the host_
 
 # Improvements
 Architecture of the project could be added to README to improve the clarity of the project's goal.
-
