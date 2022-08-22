@@ -61,7 +61,7 @@ The implementation of the project is done by first writing the proper CLI argume
 
 **host_info**
 
-|   Name   | Data Type |  Contraints  | Description |
+|   Name   | Data Type |  Constraints  | Description |
 | ---	     |	---	 |	---   |	  ---	    |
 | id	     | SERIAL    | PRIMARY KEY| psql db auto-increment |
 | hostname   | VARCHAR   | NOT NULL UNIQUE | Hostname |
@@ -75,7 +75,7 @@ The implementation of the project is done by first writing the proper CLI argume
 
 **host_usage**
 
-|   Name   | Data Type |  Contraints  | Description |
+|   Name   | Data Type |  Constraints  | Description |
 | ---	     |	---	 |	---   |	  ---	   |
 | timestamp   | TIMESTAMP | NOT NULL   | Current time in UTC |
 | host_id     | SERIAL    | FOREIGN KEY   | Host id from `hosts` table |
