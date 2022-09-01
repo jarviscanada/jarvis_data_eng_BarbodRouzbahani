@@ -9,7 +9,11 @@ public class chall1 {
         Scanner input = new Scanner(System.in);
         int inputInt = input.nextInt();
 
-        if (inputInt % 2 == 0) {
+        /**
+   	* Big-O: O(1)
+   	* Justification: it's an arithmetic operation
+   	*/
+	if (inputInt % 2 == 0) {
             System.out.println("Even");
         } else {
             System.out.println("Odd");
