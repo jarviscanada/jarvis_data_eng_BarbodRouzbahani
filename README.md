@@ -4,11 +4,11 @@ I am Barbod, almost 23 years old, and I love to help people with the skills I ha
 
 ## Skills
 
-**Proficient:** HTML, CSS, JavaScript, Git, Agile/Scrum
+**Proficient:** HTML, CSS, JavaScript, Node/Express, Agile/Scrum
 
-**Competent:** Java, C, Bootstrap, RDBMS/SQL, Linux/Bash
+**Competent:** Angular, Java, C, RDBMS/SQL, Linux/Bash
 
-**Familiar:** Node.js, Docker, Legacy languages (Fortran, Cobol), Python, Postman
+**Familiar:** Node.js, Docker, Bootstrap, Python, Postman
 
 ## Jarvis Projects
 
@@ -19,9 +19,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BarbodRouz
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/master/core_java)]:
       
+  - JDBC App: Implemented an app which does the CRUD process for a database in a PSQL instance.
+  - Grep App: Built an app which function like the linux 'grep' command. It does a recursive search over the specified directory for any matches from any file in the directory or any of its subdirectories using the provided regex expression
   - Twitter App: 
-  - JDBC App: 
-  - Grep App: 
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/master/springboot)]: Not Started
 
