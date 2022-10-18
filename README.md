@@ -8,7 +8,7 @@ I am Barbod, almost 23 years old, and I love to help people using the skills I h
 
 **Competent:** Angular, Java, C, RDBMS/SQL, Linux/Bash
 
-**Familiar:** Git, Docker, Bootstrap, Python, Postman
+**Familiar:** TypeScript, Docker, Bootstrap, Python, Postman
 
 ## Jarvis Projects
 
