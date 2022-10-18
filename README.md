@@ -21,7 +21,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BarbodRouz
       
   - JDBC App: Implemented an app which does the CRUD process for a database in a PSQL instance.
   - Grep App: Built an app which function like the linux 'grep' command. It does a recursive search over the specified directory for any matches from any file in the directory or any of its subdirectories using the provided regex expression
-  - Twitter App: 
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/master/springboot)]: Not Started
 
