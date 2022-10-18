@@ -1,6 +1,6 @@
 # Barbod Rouzbahani . Jarvis Consulting
 
-I am Barbod, almost 23 years old, and I love to help people with the skills I have. I have a Bachelor of Computer Science from the University of Guelph, and I am passionate about designing and developing websites, and playing Water Polo!
+I am Barbod, almost 23 years old, and I love to help people using the skills I have. I have a Bachelor of Computer Science from the University of Guelph, and I am passionate about designing and developing websites, and playing Water Polo!
 
 ## Skills
 
