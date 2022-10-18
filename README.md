@@ -15,7 +15,7 @@ I am Barbod, almost 23 years old, and I love to help people using the skills I h
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/master/linux_sql)]: Built an application to gather the hardware and usage information of a Linux system using bash scripts, and store them in a table using RDBMS and PSQL.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/develop/linux_sql)]: Built an application to gather the hardware and usage information of a Linux system using bash scripts, and store them in a table using RDBMS and PSQL.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/master/core_java)]:
       
