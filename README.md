@@ -17,7 +17,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BarbodRouz
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/develop/linux_sql)]: Built an application to gather the hardware and usage information of a Linux system using bash scripts, and store them in a table using RDBMS and PSQL.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/master/core_java)]:
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/develop/core_java)]:
       
   - JDBC App: Implemented an app which does the CRUD process for a database in a PSQL instance.
   - Grep App: Built an app which function like the linux 'grep' command. It does a recursive search over the specified directory for any matches from any file in the directory or any of its subdirectories using the provided regex expression
