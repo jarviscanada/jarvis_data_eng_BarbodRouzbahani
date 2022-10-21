@@ -6,7 +6,7 @@ I am Barbod, almost 23 years old, and I love to help people using the skills I h
 
 **Proficient:** HTML, CSS, JavaScript, Angular, Node/Express
 
-**Competent:** Agile/Scrum, Java, C, SQL, Linux/Bash
+**Competent:** Agile/Scrum, Java, C, PSQL, Linux/Bash
 
 **Familiar:** TypeScript, Docker, Bootstrap, Python, MongoDB
 
