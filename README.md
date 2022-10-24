@@ -45,9 +45,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BarbodRouz
 
 **Junior Developer, Jarvis (Jul 2022-present)**: Working on different projects using various technologies and languages such as JS, Python, Angular, Node/Express, etc.
 
-**Customer Service and Sales Assistance, The UPS Store (May 2020-Aug 2020)**: Helped customers with their needs, such as shipping, printing, and taking photos.
-
 **Packing Staff, Amazon (May 2021-Jul 2021)**: Worked as a member of the packaging section of the warehouse and helped keeping up the pace of shipping items.
+
+**Customer Service and Sales Assistance, The UPS Store (May 2020-Aug 2020)**: Helped customers with their needs, such as shipping, printing, and taking photos.
 
 **Cheff assistant, Croissant Express Cafe (Sep 2019-Dec 2019)**: Worked as a member of the kitchen and cheff assistant with tasks like cooking, cleaning, and serving food.
 
