@@ -1,12 +1,12 @@
 # Barbod Rouzbahani . Jarvis Consulting
 
-I am Barbod, almost 23 years old, and I love to help people using the skills I have. I have a Bachelor of Computer Science from the University of Guelph, and I am passionate about designing and developing websites. JavaScript is the language I am the most proficient at, since most of the personal projects I have done so far use JavaScript as their main language (along with HTML/CSS). In terms of front-end knowledge, I am familiar with Angular as I have used it in one project so far, and the technologies I use for the back-end are Express and PSQL. Besides the technical part of the project, I am also interested in the designing and the artistic parts, since doing art (sketching) is one of my hobbies. This means that I could be of great help when it comes to the UI of a project as well!
+I am Barbod, almost 23 years old, and I love to help people using the skills I have. I have a Bachelor of Computer Science from the University of Guelph, and I am passionate about designing and developing websites. JavaScript is the language I am the most proficient at, since most of the personal projects I have done so far use JavaScript as their main language (along with HTML/CSS). In terms of front-end knowledge, I am familiar with Angular as I have used it in one project so far, and the technologies I use for the back-end are Express and SQL. Besides the technical part of the project, I am also interested in the design and the artistic parts, since doing art (sketching) is one of my hobbies. This means that I could be of great help when it comes to the UI of a project as well!
 
 ## Skills
 
 **Proficient:** HTML, CSS, JavaScript, Angular, Node/Express
 
-**Competent:** Agile/Scrum, Java, C, PSQL, Linux/Bash
+**Competent:** Agile/Scrum, Java, C, SQL, Linux/Bash
 
 **Familiar:** TypeScript, Docker, Bootstrap, Python, MongoDB
 
@@ -20,7 +20,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BarbodRouz
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/develop/core_java)]:
       
   - JDBC App: Implemented an app which does the CRUD process for a database in a PSQL instance.
-  - Grep App: Built an app which function like the linux 'grep' command. It does a recursive search over the specified directory for any matches from any file in the directory or any of its subdirectories using the provided regex expression
+  - Grep App: Built an app which functions like the linux 'grep' command. It does a recursive search over the specified directory for any matches from any file in the directory or any of its subdirectories using the provided regex expression
+
+**Angular Twitter App**: Created a simple webpage that has a fully functional CRUD system and resembles Twitter. Technologies used for implementation are HTML, CSS, JavaScript, Angular, Node/Express, KnexJS, and SQL.
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/master/springboot)]: Not Started
 
@@ -34,7 +36,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BarbodRouz
 
 
 ## Highlighted Projects
-**The Great Wall Traveller Guide**: Designed the interface of a website using HTML and CSS, which was built as a guide for the travellers to the Great Wall of China.
+**The Great Wall Traveler Guide**: Designed the interface of a website using HTML and CSS, which was built as a guide for the travelers to the Great Wall of China.
 
 **Java Investing App**: Built a Java application with simple GUI to do basic investing, like buying and selling stock.
 
