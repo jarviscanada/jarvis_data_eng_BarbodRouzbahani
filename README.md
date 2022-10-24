@@ -1,30 +1,30 @@
 # Barbod Rouzbahani . Jarvis Consulting
 
-I am Barbod, almost 23 years old, and I love to help people using the skills I have. I have a Bachelor of Computer Science from the University of Guelph, and I am passionate about designing and developing websites. JavaScript is the language I am the most proficient at, since most of the personal projects I have done so far use JavaScript as their main language (along with HTML/CSS). In terms of front-end knowledge, I am familiar with Angular as I have used it in one project so far, and the technologies I use for the back-end are Express and SQL. Besides the technical part of the project, I am also interested in the design and the artistic parts, since doing art (sketching) is one of my hobbies. This means that I could be of great help when it comes to the UI of a project as well!
+Greetings! I am a 23-year old (22 years, 8 months, 1 week, and 5 days, or 8290 days to be precise) developer, and I love to help people using the skills I have! I have a Bachelor of Computer Science from the University of Guelph, and I am passionate about designing and developing websites. In these 8290 days, I have learned to program in JavaScript, Python, HTML/CSS, Java, and C, and have had the privilege of learning and working with technologies like Angular, Node/Express, MongoDB, and Docker. In addition to these, I have React and Photoshop (for UI) on my goals list to become better at what I like to do! Also, besides the technical part of the project, I am interested in the design and the artistic parts as well, since doing art (sketching) is one of my hobbies. This means that I could be of great help when it comes to the UI of a project as well!
 
 ## Skills
 
 **Proficient:** HTML, CSS, JavaScript, Angular, Node/Express
 
-**Competent:** Agile/Scrum, Java, C, SQL, Linux/Bash
+**Competent:** Agile/Scrum, Java, Python, C, SQL, Linux/Bash
 
-**Familiar:** TypeScript, Docker, Bootstrap, Python, MongoDB
+**Familiar:** TypeScript, Docker, Bootstrap, MongoDB
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/develop/linux_sql)]: Built an application to gather the hardware and usage information of a Linux system using bash scripts, and store them in a table using RDBMS and PSQL.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/develop/linux_sql)]: The purpose of this project is to gather hardware and usage information of a Linux system and store them in an RDBMS database. It is built for resource planning purposes, for the teams who wish to manage their resources for further changes to their systems. Technologies used in this project are Google Cloud, Git, bash, Docker, and PSQL.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/develop/core_java)]:
       
-  - JDBC App: Implemented an app which does the CRUD process for a database in a PSQL instance.
-  - Grep App: Built an app which functions like the linux 'grep' command. It does a recursive search over the specified directory for any matches from any file in the directory or any of its subdirectories using the provided regex expression
+  - JDBC App: The CRUD process for a database in a PSQL instance is implemented in this app. In the implementation, the database is accessed through JDBC, the CRUD process is handled by customer DAO, and the PSQL instance is stored in a Docker container.
+  - Grep App: Built an app which functions like the linux 'grep' command. It does a recursive search over the specified directory for any matches from any file in the directory or any of its subdirectories using the provided regex expression. This application makes use of certain fundamental Java features, including array lists, object-oriented programming, interfaces, and encapsulation. The management of the project was also done using Maven.
 
-**Angular Twitter App**: Created a simple webpage that has a fully functional CRUD system and resembles Twitter. Technologies used for implementation are HTML, CSS, JavaScript, Angular, Node/Express, KnexJS, and SQL.
+**Angular Twitter App**: Created a simple webpage that has a fully functional CRUD system which resembles Twitter. It can be used to create a new tweet, read other people's tweets, edit your tweet (which is not possible even on Twitter itself!), and delete your tweet. Technologies used for implementation are HTML, CSS, JavaScript, Angular, Node/Express, KnexJS, and SQL.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/master/springboot)]: Not Started
+<!-- **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/master/springboot)]: Not Started
 
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/master/python_data_anlytics)]: Not Started
 
@@ -32,18 +32,18 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BarbodRouz
 
 **Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/master/spark)]: Not Started
 
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/master/cloud_devops)]: Not Started
+**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BarbodRouzbahani/tree/master/cloud_devops)]: Not Started -->
 
 
 ## Highlighted Projects
-**The Great Wall Traveler Guide**: Designed the interface of a website using HTML and CSS, which was built as a guide for the travelers to the Great Wall of China.
+**Score Keeper**: Created a web application using HTML, CSS, and JavaScript, which is a score keeper that can be used to count the score in a sports competition. Its main focus is on DOM as the effects of the scoreline changes depending on the results of the match. The UI of the webpage will be improved furthermore so that it looks better on the eye.
 
-**Java Investing App**: Built a Java application with simple GUI to do basic investing, like buying and selling stock.
+**The Great Wall Traveler Guide**: Designed the interface of a website using HTML and CSS, which was built as a guide for the travelers to the Great Wall of China. Five pages were designed, including a Home page, History page, Travel Guide page, About page, and a 404 page in case the user tried to access a page other than the first four. Further functioning may be added in the future using JavaScript to give a more alive and realistic sense.
 
 
 ## Professional Experiences
 
-**Junior Developer, Jarvis (2022-present)**: Developing a Java application to mimic the Linux grep command to search for a given string.
+**Junior Developer, Jarvis (2022-present)**: Working on different projects using various technologies and languages such as JS, Python, Angular, Node/Express, etc.
 
 **Customer Service and Sales Assistance, The UPS Store (May 2020-Aug 2020)**: Helped customers with their needs, such as shipping, printing, and taking photos.
 
