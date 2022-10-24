@@ -36,9 +36,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BarbodRouz
 
 
 ## Highlighted Projects
-**Score Keeper**: Created a web application using HTML, CSS, and JavaScript, which is a score keeper that can be used to count the score in a sports competition. Its main focus is on DOM as the effects of the scoreline changes depending on the results of the match. The UI of the webpage will be improved furthermore so that it looks better on the eye.
+**Score Keeper**: Created a web application using HTML, CSS, and JavaScript, which is a score keeper that can be used to count the score in a sports competition. Its main focus is on DOM as the effects of the scoreline change depending on the results of the match. The UI of the webpage will be improved furthermore so that it looks better on the eye.
 
-**The Great Wall Traveler Guide**: Designed the interface of a website using HTML and CSS, which was built as a guide for the travelers to the Great Wall of China. Five pages were designed, including a Home page, History page, Travel Guide page, About page, and a 404 page in case the user tried to access a page other than the first four. Further functioning may be added in the future using JavaScript to give a more alive and realistic sense.
+**The Great Wall Travelers' Guide**: Designed the interface of a website using HTML and CSS, which was built as a guide for the travelers to the Great Wall of China. Five pages were designed, including a Home page, History page, Travel Guide page, About page, and a 404 page in case the user tried to access a page other than the first four. Further functioning may be added in the future using JavaScript to give a more alive and realistic sense.
 
 
 ## Professional Experiences
