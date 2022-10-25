@@ -1,6 +1,6 @@
 # Barbod Rouzbahani . Jarvis Consulting
 
-Greetings! I am a 23-year-old developer located in Guelph, Ontario (willing to relocate!), and I love to help people using the skills I have! I have a Bachelor of Computer Science from the University of Guelph, and I am passionate about designing and developing websites. In my programming journey so far, I have learned to program in JavaScript, Python, HTML/CSS, Java, and C, and have had the privilege of learning and working with technologies like Angular, Node/Express, and Docker. In addition to these, I have React, Photoshop (for UI), and MongoDB on my goals list to become better at what I like to do! Also, besides the technical part of the project, I am interested in the design and the artistic parts as well, since doing art (sketching) is one of my hobbies. This means that I could be of great help when it comes to the UI of a project!
+Greetings! I am a 23-year-old developer located in Guelph, Ontario (willing to relocate!), and I love to help people using the skills I have! I have a Bachelor of Computer Science from the University of Guelph, and I am passionate about designing and developing websites. In my programming journey so far, I have learned to program in JavaScript, Python, HTML/CSS, Java, and C, and have had the privilege of learning and working with technologies like Angular, Node/Express, and Docker. In addition to these, I have React, Photoshop (for UI), and MongoDB on my goals list to become better at what I like to do! I am also interested in the design and the artistic parts of a project besides the technical part, since doing art (sketching) is one of my hobbies. This means that I could be of great help when it comes to the UI of a project!
 
 ## Skills
 
@@ -45,11 +45,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BarbodRouz
 
 **Junior Developer, Jarvis (Jul 2022-present)**: Working on different projects using various technologies and languages such as JS, Python, Angular, Node/Express, etc.
 
-**Packing Staff, Amazon (May 2021-Jul 2021)**: Worked as a member of the packaging section of the warehouse and helped keeping up the pace of shipping items.
+**Packing Staff, Amazon (May 2021-Jul 2021)**: Worked as a member of the packaging section of the warehouse to become a better team player and help keeping up the pace of shipping items.
 
-**Customer Service and Sales Assistance, The UPS Store (May 2020-Aug 2020)**: Helped customers with their needs, such as shipping, printing, and taking photos.
-
-**Cheff assistant, Croissant Express Cafe (Sep 2019-Dec 2019)**: Worked as a member of the kitchen and cheff assistant with tasks like cooking, cleaning, and serving food.
+**Customer Service and Sales Assistance, The UPS Store (May 2020-Aug 2020)**: Worked as a member of the customer service team to improve my communication skills and help customers with their needs, such as shipping, printing, and taking photos.
 
 ## Education
 **University of Guelph (2019-2022)**, Bachelor of Computer Science, School of Computer Science
